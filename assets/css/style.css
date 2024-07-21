@@ -86,6 +86,10 @@ a:hover {
   margin-left: 5px;
 }
 
+.just-p {
+  text-align: justify;
+}
+
 @media (min-width: 768px) {
   .link-a span {
     font-size: 1.5rem;
@@ -120,12 +124,13 @@ a:hover {
 }
 
 .color-d {
-  color: #adadad;
+  color: #2eca6a;
 }
 
 .color-text-a {
   text-decoration: none;
   color: #555555;
+  text-align: justify;
 }
 
 .no-margin {
@@ -338,21 +343,21 @@ a:hover {
 }
 
 .title-box-d {
-  padding-bottom: 1.8rem;
+  padding-bottom: 1rem;
   margin-bottom: 1rem;
   position: relative;
 }
 
 .title-box-d .title-d {
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .title-box-d .title-d:after {
   content: "";
   position: absolute;
-  width: 70px;
-  height: 4px;
+  width: 170px;
+  height: 0px;
   background-color: #2eca6a;
   bottom: 20px;
   left: 0;
